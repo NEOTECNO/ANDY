@@ -60,10 +60,10 @@ div.fixed {
                                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     
                                         <div class="navbar-nav">
-                                            <a target="_blank" href="https://app.thruster.finance/?token2=0xd43d8adac6a4c7d9aeece7c3151fca8f23752cf8"> <img src="assets/buttons/dex.png" alt="Dexscreener"> </a>
-                                            <a target="_blank" href="https://linktr.ee/andyblastl2"> <img src="assets/buttons/ltree.png" alt="Linktree"> </a>
-                                            <a target="_blank" href="https://twitter.com/AndyBlastL2"> <img src="assets/buttons/twitter.png" alt="Twitter"> </a>
-                                            <a target="_blank" href="https://t.me/AndyBlastL2"> <img src="assets/buttons/tele.png" alt="Telegram"> </a>
+                                            <a target="_blank" href="https://app.thruster.finance/?token2=0xd43d8adac6a4c7d9aeece7c3151fca8f23752cf8"> <img class="btn_nav" src="assets/buttons/dex.png" alt="Dexscreener"> </a>
+                                            <a target="_blank" href="https://linktr.ee/andyblastl2"> <img class="btn_nav" src="assets/buttons/ltree.png" alt="Linktree"> </a>
+                                            <a target="_blank" href="https://twitter.com/AndyBlastL2"> <img class="btn_nav" src="assets/buttons/twitter.png" alt="Twitter"> </a>
+                                            <a target="_blank" href="https://t.me/AndyBlastL2"> <img class="btn_nav" src="assets/buttons/tele.png" alt="Telegram"> </a>
                                         </div>
                     
                                     </div>
@@ -114,10 +114,19 @@ div.fixed {
     <!-- ================> Mint section start here <================== -->
     <section class="mint" style="background-image: url(assets/images/collection/howto.png);">
         <div class="container">
-            <div class="section-header aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000">
-                <div class="col-12">
-                    
+            <div class="howto">
+
+                <img class="howto-btn-1" src="assets/buttons/howto/howtobuy.png" alt="HOW TO BUY:">
+
+                <div class="howto2">
+                    <img class="howto-btn-4" onclick="myFunction()" src="assets/buttons/howto/copy.png" alt="COPY">
+                    <input class="contract" type="text" value="0xd43d8adac6a4c7d9aeece7c3151fca8f23752cf8" id="myInput">
                 </div>
+                
+                <a target="_blank" href="https://www.orbiter.finance/?dest=Blast&token=ETH&source=Ethereum"> <img class="howto-btn-2" src="assets/buttons/howto/bridge2.png" target="_blank" href="https://www.orbiter.finance/?dest=Blast&token=ETH&source=Ethereum" alt="HOW TO BUY:"> </a>
+
+                <a target="_blank" href="https://app.thruster.finance/?token2=0xd43d8adac6a4c7d9aeece7c3151fca8f23752cf8"> <img class="howto-btn-3" src="assets/buttons/howto/swaptoandy.png" alt="HOW TO BUY:"> </a>
+            
             </div>
         </div>
     <div id="team"></div>
@@ -129,10 +138,20 @@ div.fixed {
     <!-- ================FAQ section start here <================== -->
     <section class="faq" style="background-image: url(assets/images/collection/extra.png);">
         <div class="container">
-            <div class="section-header aos-animate aos-init" data-aos="fade-up" data-aos-duration="1000">
-                <div class="col-12">
-                    
+            <div class="adventures">
+
+                <img class="adv-btn-1" src="assets/buttons/extra/adventures.png" alt="Andy's Adventures">
+                
+                <a target="_blank" href="https://www.orbiter.finance/?dest=Blast&token=ETH&source=Ethereum"> <img class="adv-btn-2" src="assets/buttons/extra/filters.png" target="_blank" href="https://www.orbiter.finance/?dest=Blast&token=ETH&source=Ethereum" alt="HOW TO BUY:"> </a>
+
+                <a target="_blank" href="https://app.thruster.finance/?token2=0xd43d8adac6a4c7d9aeece7c3151fca8f23752cf8"> <img class="adv-btn-3" src="assets/buttons/extra/telestickers.png" alt="HOW TO BUY:"> </a>
+                
+                <div class="adventures2">
+                    <img class="adv-btn-4" src="assets/buttons/extra/1.png" alt="1">
+                    <img class="adv-btn-5" src="assets/buttons/extra/2.png" alt="2">
+                    <img class="adv-btn-6" src="assets/buttons/extra/3.png" alt="3">
                 </div>
+
             </div>
         </div>
     </section>
@@ -196,8 +215,22 @@ div.fixed {
     <script src="assets/js/countdown.min.js"></script>
     <script src="assets/js/custom.js"></script>
 
-
-
+    <script>
+        function myFunction() {
+          // Get the text field
+          var copyText = document.getElementById("myInput");
+        
+          // Select the text field
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); // For mobile devices
+        
+          // Copy the text inside the text field
+          navigator.clipboard.writeText(copyText.value);
+          
+          // Alert the copied text
+          alert("Copied the text: " + copyText.value);
+        }
+        </script>
 
 </body>
 

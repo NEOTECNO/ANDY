@@ -1484,7 +1484,7 @@ ol {
 /*=-=-=-======< Page header end here >==========-=-=-=-*/
 .banner {
   height: 116vh;
-  background-color: #251f25;
+  background-color: #2b73df;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
@@ -1523,8 +1523,147 @@ ol {
 }
 
 .gif {
-  height: 65vh;
-  margin-top: 50px;
+  content: url(/assets/images/collection/hero.gif);
+  height: 100%;
+  margin-top: 150px;
+}
+.gif:hover {
+  content: url(/assets/images/collection/hero2.gif);
+  height: 100%;
+  margin-top: 150px;
+}
+
+.btn_nav {
+  margin-top: 0px;
+}
+.btn_nav:hover {
+  margin-top: -10px;
+}
+
+.howto {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.howto2 {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.howto-btn-1 {
+  margin-top: 35px;
+}
+
+.howto-btn-2 {
+  content: url(/assets/buttons/howto/bridge2.png);
+  margin-top: 180px;
+}
+.howto-btn-2:hover {
+  content: url(/assets/buttons/howto/bridge3.png);
+}
+
+.howto-btn-3 {
+  content: url(/assets/buttons/howto/swaptoandy.png);
+  margin-top: 330px;
+}
+.howto-btn-3:hover {
+  content: url(/assets/buttons/howto/swaptoandy2.png);
+}
+
+.howto-btn-4 {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 10px;
+  content: url(/assets/buttons/howto/copy.png);
+  margin-right: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.howto-btn-4:hover {
+  content: url(/assets/buttons/howto/copy2.png);
+}
+
+.contract {
+  width: 50vw;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  background-color: #ffc23e;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #000000;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.adventures {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adventures2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.adv-btn-1 {
+  margin-top: 0px;
+}
+
+.adv-btn-2 {
+  content: url(/assets/buttons/extra/filters.png);
+  margin-top: 20px;
+}
+.adv-btn-2:hover {
+  content: url(/assets/buttons/extra/filters2.png);
+}
+
+.adv-btn-3 {
+  content: url(/assets/buttons/extra/telestickers.png);
+  margin-top: 20px;
+}
+.adv-btn-3:hover {
+  content: url(/assets/buttons/extra/telestickers2.png);
+}
+
+.adv-btn-4 {
+  content: url(/assets/buttons/extra/1.png);
+  margin: 10px;
+}
+.adv-btn-4:hover {
+  content: url(/assets/buttons/extra/1_2.png);
+}
+
+.adv-btn-5 {
+  content: url(/assets/buttons/extra/2.png);
+  margin: 10px;
+}
+.adv-btn-5:hover {
+  content: url(/assets/buttons/extra/2_2.png);
+}
+
+.adv-btn-6 {
+  content: url(/assets/buttons/extra/3.png);
+  margin: 10px;
+}
+.adv-btn-6:hover {
+  content: url(/assets/buttons/extra/3_2.png);
 }
 
 @media (min-width: 992px) {
@@ -3000,56 +3139,129 @@ ol {
     width: 100vw;
     margin-top: 0px;
   }
-}
 
-@media (max-width: 370px) {
   .row>* {
     padding-left: 0px;
     padding-right: 0px;
   }
-}
 
-@media (max-width: 370px) {
   .banner {
     height: 406px;
   }
-}
 
-@media (max-width: 370px) {
   .collection {
     height: 400px;
     background-size: 100vh;
   }
-}
 
-@media (max-width: 370px) {
   .mint {
-    height: 400px;
+    height: 415px;
     background-size: 100vh;
   }
-}
 
-@media (max-width: 370px) {
   .faq {
-    height: 240px;
-    background-size: 120%;
+    height: 455px;
+    background-size: 110vh;
     background-position: top;
   }
-}
 
-@media (max-width: 370px) {
   .community {
     height: 200px;
     background-size: 120%;
     background-position: top;
   }
-}
 
-@media (max-width: 370px) {
   .footer {
-    height: 200px;
+    height: 100px;
     background-size: 120%;
     background-position: top;
+  }
+
+/*# sourceMappingURL=style.css.map */
+
+  .howto {
+    margin-top: 25px;
+  }
+
+  .howto2 {
+    margin-top: 25px;
+  }
+
+  .howto-btn-1 {
+    width: 80vw;
+    margin-top: 0px;
+  }
+
+  .howto-btn-2 {
+    width: 80vw;
+    margin-top: 35px;
+  }
+
+  .howto-btn-3 {
+    width: 80vw;
+    margin-top: 55px;
+  }
+
+  .howto-btn-4 {
+    width: 20vw;
+    margin-right: 10px;
+  }
+
+  .contract {
+    width: 70vw;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+/*# sourceMappingURL=style.css.map */
+
+  .adventures {
+    margin-top: 12px;
+  }
+  
+  .adventures2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .adv-btn-1 {
+    margin-top: 0px;
+  }
+  
+  .adv-btn-2 {
+    content: url(/assets/buttons/extra/filters.png);
+    margin-top: 20px;
+  }
+  .adv-btn-2:hover {
+    content: url(/assets/buttons/extra/filters2.png);
+  }
+  
+  .adv-btn-3 {
+    content: url(/assets/buttons/extra/telestickers.png);
+    margin-top: 20px;
+  }
+  .adv-btn-3:hover {
+    content: url(/assets/buttons/extra/telestickers2.png);
+  }
+  
+  .adv-btn-4 {
+    width: 20vw;
+    content: url(/assets/buttons/extra/1.png);
+    margin: 5px;
+  }
+  
+  .adv-btn-5 {
+    width: 20vw;
+    content: url(/assets/buttons/extra/2.png);
+    margin: 5px;
+  }
+  
+  .adv-btn-6 {
+    width: 20vw;
+    content: url(/assets/buttons/extra/3.png);
+    margin: 5px;
   }
 }
 
@@ -3062,55 +3274,128 @@ ol {
     margin-top: 0px;
     padding-top: 10px;
   }
-}
 
-@media (min-width: 410px) and (max-width: 512px) {
   .row>* {
     padding-left: 0px;
     padding-right: 0px;
   }
-}
 
-@media (min-width: 410px) and (max-width: 512px) {
   .banner {
     height: 468px;
   }
-}
 
-@media (min-width: 410px) and (max-width: 512px) {
   .collection {
     height: 440px;
     background-size: 90vh;
   }
-}
 
-@media (min-width: 410px) and (max-width: 512px) {
   .mint {
     height: 412px;
     background-size: 80vh;
   }
-}
 
-@media (min-width: 410px) and (max-width: 512px) {
   .faq {
-    height: 240px;
-    background-size: 120%;
-    background-position: bottom;
+    height: 560px;
+    background-size: 110vh;
+    background-position: top;
   }
-}
 
-@media (min-width: 410px) and (max-width: 512px) {
   .community {
     height: 200px;
     background-size: 120%;
-    background-position: top;
+    background-position: bottom;
   }
-}
 
-@media (min-width: 410px) and (max-width: 512px) {
   .footer {
     height: 100px;
     background-size: 120%;
     background-position: top;
+  }
+
+  /*# sourceMappingURL=style.css.map */
+
+  .howto {
+    margin-top: 25px;
+  }
+
+  .howto2 {
+    margin-top: 35px;
+  }
+
+  .howto-btn-1 {
+    width: 80vw;
+    margin-top: 0px;
+  }
+
+  .howto-btn-2 {
+    width: 80vw;
+    margin-top: 35px;
+  }
+
+  .howto-btn-3 {
+    width: 80vw;
+    margin-top: 35px;
+  }
+
+  .howto-btn-4 {
+    width: 20vw;
+    margin-right: 10px;
+  }
+
+  .contract {
+    width: 70vw;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+/*# sourceMappingURL=style.css.map */
+
+  .adventures {
+    margin-top: 12px;
+  }
+
+  .adventures2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .adv-btn-1 {
+    margin-top: 0px;
+  }
+
+  .adv-btn-2 {
+    content: url(/assets/buttons/extra/filters.png);
+    margin-top: 20px;
+  }
+  .adv-btn-2:hover {
+    content: url(/assets/buttons/extra/filters2.png);
+  }
+
+  .adv-btn-3 {
+    content: url(/assets/buttons/extra/telestickers.png);
+    margin-top: 20px;
+  }
+  .adv-btn-3:hover {
+    content: url(/assets/buttons/extra/telestickers2.png);
+  }
+
+  .adv-btn-4 {
+    width: 20vw;
+    content: url(/assets/buttons/extra/1.png);
+    margin: 15px;
+  }
+
+  .adv-btn-5 {
+    width: 20vw;
+    content: url(/assets/buttons/extra/2.png);
+    margin: 15px;
+  }
+
+  .adv-btn-6 {
+    width: 20vw;
+    content: url(/assets/buttons/extra/3.png);
+    margin: 15px;
   }
 }
