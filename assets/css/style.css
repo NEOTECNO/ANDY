@@ -1484,36 +1484,41 @@ ol {
 /*=-=-=-======< Page header end here >==========-=-=-=-*/
 .banner {
   height: 100vh;
+  background-color: #251f25;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: top;
 }
 
 .collection {
   height: 100vh;
+  background-color: #251f25;
   background-repeat: no-repeat;
-  background-size: 170vh;
+  background-size: 100%;
   background-position: top;
 }
 
 .mint {
   height: 100vh;
+  background-color: #251f25;
   background-repeat: no-repeat;
-  background-size: 170vh;
+  background-size: 100%;
   background-position: top;
 }
 
 .team {
   height: 100vh;
+  background-color: #251f25;
   background-repeat: no-repeat;
-  background-size: 170vh;
+  background-size: 100%;
   background-position: top;
 }
 
 .faq {
   height: 100vh;
+  background-color: #251f25;
   background-repeat: no-repeat;
-  background-size: 170vh;
+  background-size: 100%;
   background-position: top;
 }
 
@@ -2983,6 +2988,64 @@ ol {
     -ms-animation: left-right 3s cubic-bezier(0.65, 0.05, 0.36, 1) infinite alternate;
     -o-animation: left-right 3s cubic-bezier(0.65, 0.05, 0.36, 1) infinite alternate;
     animation: left-right 3s cubic-bezier(0.65, 0.05, 0.36, 1) infinite alternate;
+  }
+}
+
+@media (max-width: 992px) {
+  .gif {
+    height: auto;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .row>* {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner {
+    height: 406px;
+  }
+}
+
+@media (max-width: 992px) {
+  .collection {
+    height: 400px;
+    background-size: 100vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .mint {
+    height: 400px;
+    background-size: 100vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .faq {
+    height: 240px;
+    background-size: 120%;
+    background-position: top;
+  }
+}
+
+@media (max-width: 992px) {
+  .community {
+    height: 200px;
+    background-size: 120%;
+    background-position: top;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer {
+    height: 200px;
+    background-size: 120%;
+    background-position: top;
   }
 }
 
