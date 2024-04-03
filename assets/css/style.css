@@ -2995,6 +2995,7 @@ ol {
   .gif {
     height: auto;
     width: 100vw;
+    padding-top: 10px;
   }
 }
 
@@ -3007,21 +3008,21 @@ ol {
 
 @media (max-width: 992px) {
   .banner {
-    height: 406px;
+    height: 468px;
   }
 }
 
 @media (max-width: 992px) {
   .collection {
-    height: 400px;
-    background-size: 100vh;
+    height: 440px;
+    background-size: 90vh;
   }
 }
 
 @media (max-width: 992px) {
   .mint {
     height: 400px;
-    background-size: 100vh;
+    background-size: 80vh;
   }
 }
 
@@ -3029,7 +3030,7 @@ ol {
   .faq {
     height: 240px;
     background-size: 120%;
-    background-position: top;
+    background-position: bottom;
   }
 }
 
