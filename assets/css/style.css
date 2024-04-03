@@ -1666,6 +1666,54 @@ ol {
   content: url(/assets/buttons/extra/3_2.png);
 }
 
+.popup{
+  width: 900px;
+  margin: auto;
+  text-align: center
+}
+.popup img{
+  cursor: pointer
+}
+.show{
+  z-index: 999;
+  display: none;
+}
+.show .overlay{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.66);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.show .img-show{
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden
+}
+.img-show span{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 99;
+  cursor: pointer;
+}
+.img-show img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*End style*/
+
 @media (min-width: 992px) {
   .banner {
     padding-block: 160px;
@@ -3263,6 +3311,15 @@ ol {
     content: url(/assets/buttons/extra/3.png);
     margin: 5px;
   }
+
+  .popup {
+    width: 94vw;
+  }
+
+  .popup-img {
+    width: 100vw;
+    height: 50vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
@@ -3398,4 +3455,14 @@ ol {
     content: url(/assets/buttons/extra/3.png);
     margin: 15px;
   }
+
+  .popup {
+    width: 94vw;
+  }
+
+  .popup-img {
+    width: 100vw;
+    height: 50vh;
+  }
 }
+
