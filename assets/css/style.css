@@ -1483,6 +1483,41 @@ ol {
 
 /*=-=-=-======< Page header end here >==========-=-=-=-*/
 
+html,body{
+  overflow-x: hidden;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.click-btn {
+  left: 100px;
+}
+
+.logo-mov {
+  width: 70vw;
+  margin-bottom: 30px;
+}
+
+.wrapper > div img {
+  display: none;
+}
+
+.click-btn {
+  position: absolute;
+  top: 0px;
+  left: 340px;
+  width: 10vw;
+}
+
+.rndmImage {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50vw;
+  height: 50vh;
+}
+
 .audio_div {
   display: flex;
   justify-content: center;
@@ -1719,18 +1754,18 @@ margin-top: -80px;
   content: url(/assets/buttons/extra/3_2.png);
 }
 
-.popup{
+.popup {
   width: 900px;
   text-align: center
 }
-.popup img{
+.popup img {
   cursor: pointer
 }
-.show{
+.show {
   z-index: 999;
   display: none;
 }
-.show .overlay{
+.show .overlay {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -1740,7 +1775,7 @@ margin-top: -80px;
   top: 0;
   left: 0;
 }
-.show .img-show{
+.show .img-show {
   width: 600px;
   height: 400px;
   background: #FFF;
@@ -1750,14 +1785,14 @@ margin-top: -80px;
   transform: translate(-50%,-50%);
   overflow: hidden
 }
-.img-show span{
+.img-show span {
   position: absolute;
   top: 10px;
   right: 10px;
   z-index: 99;
   cursor: pointer;
 }
-.img-show img{
+.img-show img {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1774,13 +1809,13 @@ margin-top: -80px;
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   .banner {
-    padding-block: 160px;
+    padding-block: 0px;
   }
 }
 
 @media (min-width: 1600px) {
   .banner {
-    padding-block: 220px;
+    padding-block: 25px;
   }
 }
 
@@ -3240,10 +3275,24 @@ margin-top: -80px;
 /*# sourceMappingURL=style.css.map */
 
 @media (max-width: 370px) {
+
+  .click-btn {
+    width: 15vw;
+    left: 5px;
+  }
+
   .gif {
     width: 50vw;
     height: 50vw;
     margin-top: 20px;
+  }
+
+  .rndmImage {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
   }
 
   .row>* {
@@ -3254,6 +3303,7 @@ margin-top: -80px;
   .logo-mov {
     content: url(/assets/images/logo/logo-mov.png);
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .banner {
@@ -3403,11 +3453,25 @@ margin-top: -80px;
 /*# sourceMappingURL=style.css.map */
 
 @media (min-width: 410px) and (max-width: 512px) {
+
+  .click-btn {
+    width: 15vw;
+    left: 5px;
+  }
+
   .gif {
     width: 50vw;
     height: 50vw;
     margin-top: 0px;
     padding-top: 10px;
+  }
+
+  .rndmImage {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
   }
 
   .row>* {
@@ -3418,6 +3482,7 @@ margin-top: -80px;
   .logo-mov {
     content: url(/assets/images/logo/logo-mov.png);
     margin-top: 10px;
+    margin-bottom: 5px;
   }
 
   .banner {
@@ -3575,11 +3640,24 @@ margin-top: -80px;
 /*# sourceMappingURL=style.css.map */
 
 @media (min-width: 1360px) and (max-width: 1380px) {
+
+  .click-btn {
+    left: 95px;
+  }
+
   .gif {
     height: auto;
     width: 30vw;
     margin-top: 30px;
     padding-top: 10px;
+  }
+
+  .rndmImage {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 70vh;
   }
 
   .row>* {
@@ -3730,11 +3808,24 @@ margin-top: -80px;
 /*# sourceMappingURL=style.css.map */
 
 @media (min-width: 1440px) and (max-width: 1500px) {
+
+  .click-btn {
+    left: 95px;
+  }
+
   .gif {
     height: auto;
     width: 30vw;
     margin-top: 30px;
     padding-top: 10px;
+  }
+
+  .rndmImage {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 70vh;
   }
 
   .row>* {
