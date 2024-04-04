@@ -216,8 +216,15 @@ div.fixed {
     <script src="assets/js/custom.js"></script>
 
     <script>
-        var myAudio = document.getElementById('audio1');
-        myAudio.setAttribute('autoplay', 'autoplay');
+        var x = document.getElementById("myAudio");
+
+        function playAudio() {
+          x.play();
+        }
+        
+        function pauseAudio() {
+          x.pause();
+        }
     </script>
     
     <script>
