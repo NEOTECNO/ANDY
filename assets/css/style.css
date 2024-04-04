@@ -3547,6 +3547,152 @@ margin-top: -80px;
 
 /*# sourceMappingURL=style.css.map */
 
+@media (min-width: 1360px) and (max-width: 1380px) {
+  .gif {
+    height: auto;
+    width: 30vw;
+    margin-top: 30px;
+    padding-top: 10px;
+  }
+
+  .row>* {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .banner {
+    height: 768px;
+  }
+
+  .meme_img {
+    height: 310px;
+  }
+
+  .collection {
+    height: 768px;
+    background-size: 100vw;
+  }
+
+  .mint {
+    height: 768px;
+    background-size: 100vw;
+  }
+
+  .faq {
+    height: 768px;
+    background-size: 100vw;
+    background-position: top;
+  }
+
+  .community {
+    height: 200px;
+    background-size: 120%;
+    background-position: bottom;
+  }
+
+  .footer__copyright {
+    font-size: 24px;
+    height: 50px;
+  }
+
+  /*# sourceMappingURL=style.css.map */
+
+  .howto {
+    margin-top: 35px;
+  }
+
+  .howto2 {
+    margin-top: 35px;
+  }
+
+  .howto-btn-1 {
+    width: 25vw;
+    margin-top: 30px;
+  }
+
+  .howto-btn-2 {
+    width: 35vw;
+    margin-top: 100px;
+  }
+
+  .howto-btn-3 {
+    width: 25vw;
+    margin-top: 275px;
+  }
+
+  .howto-btn-4 {
+    width: 6vw;
+    margin-right: 10px;
+  }
+
+  .contract {
+    width: 60vw;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+/*# sourceMappingURL=style.css.map */
+
+  .adventures {
+    margin-top: 20px;
+  }
+
+  .adventures2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .adv-btn-1 {
+    margin-top: 20px;
+  }
+
+  .adv-btn-2 {
+    content: url(/assets/buttons/extra/filters.png);
+    margin-top: 20px;
+  }
+  .adv-btn-2:hover {
+    content: url(/assets/buttons/extra/filters2.png);
+  }
+
+  .adv-btn-3 {
+    content: url(/assets/buttons/extra/telestickers.png);
+    margin-top: 20px;
+  }
+  .adv-btn-3:hover {
+    content: url(/assets/buttons/extra/telestickers2.png);
+  }
+
+  .adv-btn-4 {
+    width: 5vw;
+    content: url(/assets/buttons/extra/1.png);
+    margin: 15px;
+  }
+
+  .adv-btn-5 {
+    width: 5vw;
+    content: url(/assets/buttons/extra/2.png);
+    margin: 15px;
+  }
+
+  .adv-btn-6 {
+    width: 5vw;
+    content: url(/assets/buttons/extra/3.png);
+    margin: 15px;
+  }
+
+  .popup {
+    width: 100vw;
+  }
+
+  .popup-img {
+    width: 57vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
 @media (min-width: 1440px) and (max-width: 1500px) {
   .gif {
     height: auto;
