@@ -1483,6 +1483,19 @@ ol {
 
 /*=-=-=-======< Page header end here >==========-=-=-=-*/
 
+.audio_div {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 40px;
+  margin-top: 55px;
+}
+
+.myAudio {
+  width: 50vw;
+  height: 40px;
+}
+
 .row {
 margin-top: -80px;
 }
@@ -1959,6 +1972,7 @@ margin-top: -80px;
 .footer__copyright {
   font-family: "Super";
   font-size: 32px;
+  height: 30px;
 }
 
 .default-btn {
@@ -3614,7 +3628,7 @@ margin-top: -80px;
 
   .footer__copyright {
     font-size: 24px;
-    height: 50px;
+    height: 20px;
   }
 
   /*# sourceMappingURL=style.css.map */
@@ -3768,7 +3782,7 @@ margin-top: -80px;
 
   .footer__copyright {
     font-size: 24px;
-    height: 50px;
+    height: 20px;
   }
 
   /*# sourceMappingURL=style.css.map */
