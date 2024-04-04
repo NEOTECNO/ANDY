@@ -1482,12 +1482,43 @@ ol {
 }
 
 /*=-=-=-======< Page header end here >==========-=-=-=-*/
+
+.row {
+margin-top: -80px;
+}
+
 .banner {
   height: 116vh;
-  background-color: #2b73df;
+  background-color: #909499;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
+}
+
+.banner__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .collection {
@@ -1625,6 +1656,9 @@ ol {
 .adv-btn-1 {
   margin-top: 0px;
 }
+.adv-btn-1:hover {
+  content: url(/assets/buttons/extra/adventures2.png);
+}
 
 .adv-btn-2 {
   content: url(/assets/buttons/extra/filters.png);
@@ -1668,7 +1702,6 @@ ol {
 
 .popup{
   width: 900px;
-  margin: auto;
   text-align: center
 }
 .popup img{
@@ -1914,7 +1947,6 @@ ol {
 .footer__copyright {
   font-family: "Super";
   font-size: 32px;
-  border-top: 2px solid rgba(255, 255, 255, 0.05);
 }
 
 .default-btn {
@@ -3185,9 +3217,8 @@ ol {
 
 @media (max-width: 370px) {
   .gif {
-    height: auto;
-    width: 100vw;
-    margin-top: 0px;
+    width: 50vw;
+    margin-top: 20px;
   }
 
   .row>* {
@@ -3195,8 +3226,29 @@ ol {
     padding-right: 0px;
   }
 
+  .logo-mov {
+    content: url(/assets/images/logo/logo-mov.png);
+    margin-top: 10px;
+  }
+
   .banner {
-    height: 406px;
+    background-image: url(/assets/images/banner/banner-bg.png);
+    background-size: 150vh;
+    background-position: bottom;
+    height: 468px;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .btn_nav {
+    height: 50px;
+  }
+
+  .navbar-nav2 {
+    margin-top: 10px;
+    flex-direction: column;
   }
 
   .collection {
@@ -3248,7 +3300,7 @@ ol {
 
   .howto-btn-3 {
     width: 80vw;
-    margin-top: 55px;
+    margin-top: 90px;
   }
 
   .howto-btn-4 {
@@ -3327,8 +3379,7 @@ ol {
 
 @media (min-width: 410px) and (max-width: 512px) {
   .gif {
-    height: auto;
-    width: 100vw;
+    width: 50vw;
     margin-top: 0px;
     padding-top: 10px;
   }
@@ -3338,8 +3389,29 @@ ol {
     padding-right: 0px;
   }
 
+  .logo-mov {
+    content: url(/assets/images/logo/logo-mov.png);
+    margin-top: 10px;
+  }
+
   .banner {
+    background-image: url(/assets/images/banner/banner-bg.png);
+    background-size: 120vh;
+    background-position: bottom;
     height: 468px;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .btn_nav {
+    height: 50px;
+  }
+
+  .navbar-nav2 {
+    margin-top: 10px;
+    flex-direction: column;
   }
 
   .collection {
@@ -3376,31 +3448,32 @@ ol {
   }
 
   .howto2 {
-    margin-top: 35px;
+    margin-top: 25px;
   }
 
   .howto-btn-1 {
-    width: 80vw;
+    width: 70vw;
     margin-top: 0px;
   }
 
   .howto-btn-2 {
     width: 80vw;
-    margin-top: 35px;
+    margin-top: 25px;
   }
 
   .howto-btn-3 {
     width: 80vw;
-    margin-top: 35px;
+    margin-top: 85px;
   }
 
   .howto-btn-4 {
-    width: 20vw;
+    width: 15vw;
     margin-right: 10px;
   }
 
   .contract {
-    width: 70vw;
+    width: 76vw;
+    height: 70px;
     font-size: 24px;
     padding: 20px;
   }
@@ -3462,7 +3535,153 @@ ol {
 
   .popup-img {
     width: 100vw;
-    height: 50vh;
+    height: 46vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+@media (min-width: 1440px) and (max-width: 1500px) {
+  .gif {
+    height: auto;
+    width: 30vw;
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+
+  .row>* {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .banner {
+    height: 810px;
+  }
+
+  .meme_img {
+    height: 310px;
+  }
+
+  .collection {
+    height: 800px;
+    background-size: 100vw;
+  }
+
+  .mint {
+    height: 800px;
+    background-size: 100vw;
+  }
+
+  .faq {
+    height: 800px;
+    background-size: 100vw;
+    background-position: top;
+  }
+
+  .community {
+    height: 200px;
+    background-size: 120%;
+    background-position: bottom;
+  }
+
+  .footer__copyright {
+    font-size: 24px;
+    height: 50px;
+  }
+
+  /*# sourceMappingURL=style.css.map */
+
+  .howto {
+    margin-top: 35px;
+  }
+
+  .howto2 {
+    margin-top: 35px;
+  }
+
+  .howto-btn-1 {
+    width: 25vw;
+    margin-top: 30px;
+  }
+
+  .howto-btn-2 {
+    width: 35vw;
+    margin-top: 35px;
+  }
+
+  .howto-btn-3 {
+    width: 25vw;
+    margin-top: 35px;
+  }
+
+  .howto-btn-4 {
+    width: 6vw;
+    margin-right: 10px;
+  }
+
+  .contract {
+    width: 60vw;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+/*# sourceMappingURL=style.css.map */
+
+  .adventures {
+    margin-top: 20px;
+  }
+
+  .adventures2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .adv-btn-1 {
+    margin-top: 20px;
+  }
+
+  .adv-btn-2 {
+    content: url(/assets/buttons/extra/filters.png);
+    margin-top: 20px;
+  }
+  .adv-btn-2:hover {
+    content: url(/assets/buttons/extra/filters2.png);
+  }
+
+  .adv-btn-3 {
+    content: url(/assets/buttons/extra/telestickers.png);
+    margin-top: 20px;
+  }
+  .adv-btn-3:hover {
+    content: url(/assets/buttons/extra/telestickers2.png);
+  }
+
+  .adv-btn-4 {
+    width: 5vw;
+    content: url(/assets/buttons/extra/1.png);
+    margin: 15px;
+  }
+
+  .adv-btn-5 {
+    width: 5vw;
+    content: url(/assets/buttons/extra/2.png);
+    margin: 15px;
+  }
+
+  .adv-btn-6 {
+    width: 5vw;
+    content: url(/assets/buttons/extra/3.png);
+    margin: 15px;
+  }
+
+  .popup {
+    width: 100vw;
+  }
+
+  .popup-img {
+    width: 57vw;
   }
 }
 
