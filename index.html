@@ -41,7 +41,7 @@ div.fixed {
 
     <!-- ===============>> Preloader end here <<================= -->
 
-    <audio src="/andy.mp3" autoplay loop> </audio>
+    <audio id="myAudio" src="/andy.mp3" autoplay loop> </audio>
 
     <!-- ================> Banner section start here <================== -->
 
@@ -215,6 +215,11 @@ div.fixed {
     <script src="assets/js/countdown.min.js"></script>
     <script src="assets/js/custom.js"></script>
 
+    <script>
+        var myAudio = document.getElementById('audio1');
+        myAudio.setAttribute('autoplay', 'autoplay');
+    </script>
+    
     <script>
         function myFunction() {
           // Get the text field
