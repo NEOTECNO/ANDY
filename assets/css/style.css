@@ -1571,6 +1571,7 @@ margin-top: -80px;
 
 .btn_nav {
   margin-top: 0px;
+  padding: 10px;
 }
 .btn_nav:hover {
   margin-top: -10px;
