@@ -1521,6 +1521,13 @@ margin-top: -80px;
   align-items: center;
 }
 
+.meme_img1 {
+  margin-left: 20px;
+}
+.meme_img2 {
+  margin-right: 20px;
+}
+
 .collection {
   height: 116vh;
   background-color: #251f25;
@@ -2091,19 +2098,17 @@ margin-top: -80px;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   display: grid;
   place-items: center;
   background-color: #000000;
   z-index: 99999;
 }
 
-.preloader img {
-  -webkit-animation: floating 1s cubic-bezier(0.4, -0.35, 0.01, 1.08) infinite alternate;
-  -moz-animation: floating 1s cubic-bezier(0.4, -0.35, 0.01, 1.08) infinite alternate;
-  -ms-animation: floating 1s cubic-bezier(0.4, -0.35, 0.01, 1.08) infinite alternate;
-  -o-animation: floating 1s cubic-bezier(0.4, -0.35, 0.01, 1.08) infinite alternate;
-  animation: floating 1s cubic-bezier(0.4, -0.35, 0.01, 1.08) infinite alternate;
+.preloader video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .countdown {
@@ -3420,6 +3425,13 @@ margin-top: -80px;
     flex-direction: column;
   }
 
+  .meme_img1 {
+    margin-left: 0px;
+  }
+  .meme_img2 {
+    margin-left: 0px;
+  }
+
   .collection {
     height: 440px;
     background-size: 90vh;
@@ -3567,6 +3579,15 @@ margin-top: -80px;
   .meme_img {
     height: 310px;
   }
+  .meme_img1 {
+    height: 310px;
+    margin-left: 120px;
+  }
+  .meme_img2 {
+    height: 310px;
+    width: 600px;
+    margin-left: -120px;
+  }
 
   .collection {
     height: 768px;
@@ -3712,6 +3733,14 @@ margin-top: -80px;
 
   .meme_img {
     height: 310px;
+  }
+  .meme_img1 {
+    height: 310px;
+    margin-left: 90px;
+  }
+  .meme_img2 {
+    height: 310px;
+    margin-right: 140px;
   }
 
   .collection {
