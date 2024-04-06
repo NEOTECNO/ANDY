@@ -1488,6 +1488,8 @@ html,body{
   width:100%;
   margin: 0px;
   padding: 0px;
+  background-image: url(/assets/images/Website-BG.png);
+  background-size: 100vw;
 }
 
 .click-btn {
@@ -1523,7 +1525,8 @@ html,body{
   justify-content: center;
   width: 100vw;
   height: 40px;
-  margin-top: 55px;
+  margin-top: 0px;
+  background-color: #000000;
 }
 
 .myAudio {
@@ -1537,10 +1540,6 @@ margin-top: -80px;
 
 .banner {
   height: 116vh;
-  background-color: #909499;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: top;
 }
 
 .banner__wrapper {
@@ -1578,34 +1577,18 @@ margin-top: -80px;
 
 .collection {
   height: 116vh;
-  background-color: #251f25;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: top;
 }
 
 .mint {
   height: 116vh;
-  background-color: #251f25;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: top;
 }
 
 .team {
   height: 100vh;
-  background-color: #251f25;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: top;
 }
 
 .faq {
   height: 100vh;
-  background-color: #251f25;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: bottom;
 }
 
 .gif {
@@ -1633,7 +1616,7 @@ margin-top: -80px;
 }
 
 .howto {
-  margin-top: 35px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1641,7 +1624,7 @@ margin-top: -80px;
 
 .howto2 {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -1698,7 +1681,7 @@ margin-top: -80px;
 }
 
 .adventures {
-  margin-top: 35px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1990,10 +1973,16 @@ margin-top: -80px;
   margin-bottom: -5px;
 }
 
+.footer {
+  height: 90px;
+  background-color: #000000;
+}
+
 .footer__wrapper {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #000000;
 }
 
 .footer__content p {
@@ -2001,12 +1990,15 @@ margin-top: -80px;
   color: #fff;
   max-inline-size: 42ch;
   margin-inline: auto;
+  
+  background-color: #000000;
 }
 
 .footer__copyright {
   font-family: "Super";
   font-size: 32px;
   height: 30px;
+  background-color: #000000;
 }
 
 .default-btn {
@@ -3275,15 +3267,19 @@ margin-top: -80px;
 
 @media (max-width: 370px) {
 
+  body {
+    background-image: url();
+  }
+
   .click-btn {
     width: 15vw;
     left: 5px;
   }
 
   .gif {
-    width: 50vw;
-    height: 50vw;
-    margin-top: 20px;
+    width: 80vw;
+    height: 80vw;
+    margin-top: 80px;
     border-width: 8px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -3293,7 +3289,7 @@ margin-top: -80px;
   }
   .gif:hover {
     height: auto;
-    width: 52vw;
+    width: 85vw;
   }
 
   .rndmImage {
@@ -3316,10 +3312,10 @@ margin-top: -80px;
   }
 
   .banner {
-    background-image: url(/assets/images/banner/banner-bg.png);
-    background-size: 150vh;
-    background-position: bottom;
-    height: 468px;
+    background-image: url(/assets/images/banner/banner-bg3.png);
+    background-size: 100vw;
+    background-position: top;
+    height: 740px;
   }
 
   .navbar-nav {
@@ -3336,19 +3332,21 @@ margin-top: -80px;
   }
 
   .collection {
-    height: 400px;
-    background-size: 100vh;
+    height: 740px;
+    background-size: 100vw;
+    background-image: url(/assets/images/collection/tokenomics-mov1.png);
   }
 
   .mint {
-    height: 415px;
-    background-size: 100vh;
+    height: 740px;
+    background-size: 100vw;
+    background-image: url(/assets/images/collection/howto-mov1.png);
   }
 
   .faq {
-    height: 455px;
-    background-size: 110vh;
-    background-position: top;
+    height: 740px;
+    background-size: 100vw;
+    background-image: url(/assets/images/collection/extra-mov1.png);
   }
 
   .community {
@@ -3365,7 +3363,7 @@ margin-top: -80px;
 /*# sourceMappingURL=style.css.map */
 
   .howto {
-    margin-top: 25px;
+    margin-top: 150px;
   }
 
   .howto2 {
@@ -3381,27 +3379,33 @@ margin-top: -80px;
     width: 80vw;
     margin-top: 35px;
   }
+  .howto-btn-2:hover {
+    width: 85vw;
+  }
 
   .howto-btn-3 {
-    width: 80vw;
-    margin-top: 90px;
+    width: 70vw;
+    margin-top: 50px;
+  }
+  .howto-btn-3:hover {
+    width: 75vw;
   }
 
   .howto-btn-4 {
-    width: 20vw;
+    width: 15vw;
     margin-right: 10px;
   }
 
   .contract {
-    width: 70vw;
-    font-size: 24px;
+    height: 40px;
+    width: 60vw;
+    font-size: 12px;
     padding: 20px;
   }
 
 /*# sourceMappingURL=style.css.map */
 
   .adventures {
-    margin-top: 12px;
   }
   
   .adventures2 {
@@ -3412,41 +3416,54 @@ margin-top: -80px;
   }
   
   .adv-btn-1 {
-    margin-top: 0px;
+    width: 90vw;
+    margin-top: 100px;
   }
-  
+  .adv-btn-1:hover {
+    width: 100vw;
+  }
+
   .adv-btn-2 {
-    content: url(/assets/buttons/extra/filters.png);
+    width: 90vw;
     margin-top: 20px;
   }
   .adv-btn-2:hover {
-    content: url(/assets/buttons/extra/filters2.png);
+    width: 100vw;
   }
   
   .adv-btn-3 {
-    content: url(/assets/buttons/extra/telestickers.png);
+    width: 90vw;
     margin-top: 20px;
   }
   .adv-btn-3:hover {
-    content: url(/assets/buttons/extra/telestickers2.png);
+    width: 100vw;
   }
   
   .adv-btn-4 {
-    width: 20vw;
+    width: 15vw;
     content: url(/assets/buttons/extra/1.png);
-    margin: 5px;
+    margin: 15px 5px;
+  }
+  .adv-btn-4:hover {
+    width: 20vw;
   }
   
   .adv-btn-5 {
-    width: 20vw;
+    width: 15vw;
     content: url(/assets/buttons/extra/2.png);
-    margin: 5px;
+    margin: 15px 5px;
+  }
+  .adv-btn-5:hover {
+    width: 20vw;
   }
   
   .adv-btn-6 {
-    width: 20vw;
+    width: 15vw;
     content: url(/assets/buttons/extra/3.png);
-    margin: 5px;
+    margin: 15px 5px;
+  }
+  .adv-btn-6:hover {
+    width: 20vw;
   }
 
   .popup {
@@ -3456,6 +3473,14 @@ margin-top: -80px;
   .popup-img {
     width: 100vw;
     height: 50vh;
+  }
+
+  .audio_div {
+    margin-top: 15px;
+  }
+
+  .myAudio {
+    width: 70vw;
   }
 }
 
@@ -3469,9 +3494,9 @@ margin-top: -80px;
   }
 
   .gif {
-    width: 58vw;
-    height: 58vw;
-    margin-top: 0px;
+    width: 80vw;
+    height: 80vw;
+    margin-top: 130px;
     padding-top: 10px;
     border-width: 12px;
     border-radius: 28px;
@@ -3481,8 +3506,8 @@ margin-top: -80px;
     -o-border-radius: 28px;
   }
   .gif:hover {
-    height: 60vw;
-    width: 60vw;
+    height: 85vw;
+    width: 85vw;
   }
 
   .rndmImage {
@@ -3505,14 +3530,14 @@ margin-top: -80px;
   }
 
   .banner {
-    background-image: url(/assets/images/banner/banner-bg.png);
-    background-size: 120vh;
+    background-image: url(/assets/images/banner/banner-bg4.png);
+    background-size: 100vw;
     background-position: bottom;
-    height: 468px;
+    height: 915px;
   }
 
   .navbar-nav {
-    margin-top: 10px;
+    margin-top: 50px;
     flex-direction: column;
   }
   .btn_nav {
@@ -3520,7 +3545,7 @@ margin-top: -80px;
   }
 
   .navbar-nav2 {
-    margin-top: 10px;
+    margin-top: 50px;
     flex-direction: column;
   }
 
@@ -3532,25 +3557,32 @@ margin-top: -80px;
   }
 
   .collection {
-    height: 440px;
-    background-size: 90vh;
+    background-image: url(/assets/images/collection/tokenomics-mov2.png);
+    height: 915px;
+    background-size: 100vw;
   }
 
   .mint {
-    height: 412px;
-    background-size: 80vh;
+    background-image: url(/assets/images/collection/howto-mov2.png);
+    height: 915px;
+    background-size: 100vw;
   }
 
   .faq {
-    height: 560px;
-    background-size: 110vh;
-    background-position: top;
+    background-image: url(/assets/images/collection/extra-mov2.png);
+    height: 915px;
+    background-size: 100vw;
   }
 
   .community {
     height: 200px;
     background-size: 120%;
     background-position: bottom;
+  }
+
+  .footer {
+    height: 115px;
+    background-color: #000000;
   }
 
   .footer__copyright {
@@ -3569,18 +3601,24 @@ margin-top: -80px;
   }
 
   .howto-btn-1 {
-    width: 70vw;
-    margin-top: 0px;
+    width: 80vw;
+    margin-top: 150px;
   }
 
   .howto-btn-2 {
     width: 80vw;
-    margin-top: 25px;
+    margin-top: 55px;
+  }
+  .howto-btn-2:hover {
+    width: 85vw;
   }
 
   .howto-btn-3 {
-    width: 80vw;
-    margin-top: 85px;
+    width: 70vw;
+    margin-top: 50px;
+  }
+  .howto-btn-3:hover {
+    width: 75vw;
   }
 
   .howto-btn-4 {
@@ -3589,16 +3627,15 @@ margin-top: -80px;
   }
 
   .contract {
-    width: 76vw;
-    height: 70px;
-    font-size: 24px;
+    height: 50px;
+    width: 65vw;
+    font-size: 12px;
     padding: 20px;
   }
 
 /*# sourceMappingURL=style.css.map */
 
   .adventures {
-    margin-top: 12px;
   }
 
   .adventures2 {
@@ -3609,41 +3646,54 @@ margin-top: -80px;
   }
 
   .adv-btn-1 {
-    margin-top: 0px;
+    width: 90vw;
+    margin-top: 100px;
+  }
+  .adv-btn-1:hover {
+    width: 100vw;
   }
 
   .adv-btn-2 {
-    content: url(/assets/buttons/extra/filters.png);
+    width: 90vw;
     margin-top: 20px;
   }
   .adv-btn-2:hover {
-    content: url(/assets/buttons/extra/filters2.png);
+    width: 100vw;
   }
 
   .adv-btn-3 {
-    content: url(/assets/buttons/extra/telestickers.png);
+    width: 90vw;
     margin-top: 20px;
   }
   .adv-btn-3:hover {
-    content: url(/assets/buttons/extra/telestickers2.png);
+    width: 100vw;
   }
 
   .adv-btn-4 {
-    width: 20vw;
+    width: 15vw;
     content: url(/assets/buttons/extra/1.png);
-    margin: 15px;
+    margin: 15px 5px;
+  }
+  .adv-btn-4:hover {
+    width: 20vw;
   }
 
   .adv-btn-5 {
-    width: 20vw;
+    width: 15vw;
     content: url(/assets/buttons/extra/2.png);
-    margin: 15px;
+    margin: 15px 5px;
+  }
+  .adv-btn-5:hover {
+    width: 20vw;
   }
 
   .adv-btn-6 {
-    width: 20vw;
+    width: 15vw;
     content: url(/assets/buttons/extra/3.png);
-    margin: 15px;
+    margin: 15px 5px;
+  }
+  .adv-btn-6:hover {
+    width: 20vw;
   }
 
   .popup {
@@ -3653,6 +3703,14 @@ margin-top: -80px;
   .popup-img {
     width: 100vw;
     height: 46vh;
+  }
+
+  .audio_div {
+    background-color: #000000;
+  }
+
+  .myAudio {
+    width: 70vw;
   }
 }
 
@@ -3722,9 +3780,7 @@ margin-top: -80px;
   }
 
   .faq {
-    height: 768px;
-    background-size: 100vw;
-    background-position: top;
+    height: 755px;
   }
 
   .community {
@@ -3741,7 +3797,7 @@ margin-top: -80px;
   /*# sourceMappingURL=style.css.map */
 
   .howto {
-    margin-top: 35px;
+    margin-top: 10px;
   }
 
   .howto2 {
@@ -3777,7 +3833,7 @@ margin-top: -80px;
 /*# sourceMappingURL=style.css.map */
 
   .adventures {
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   .adventures2 {
@@ -3899,9 +3955,7 @@ margin-top: -80px;
   }
 
   .faq {
-    height: 800px;
-    background-size: 100vw;
-    background-position: top;
+    height: 820px;
   }
 
   .community {
@@ -3937,7 +3991,7 @@ margin-top: -80px;
 
   .howto-btn-3 {
     width: 25vw;
-    margin-top: 275px;
+    margin-top: 300px;
   }
 
   .howto-btn-4 {
@@ -4277,8 +4331,6 @@ margin-top: -80px;
 
   .faq {
     height: 1440px;
-    background-size: 100vw;
-    background-position: top;
   }
 
   .community {
@@ -4294,13 +4346,12 @@ margin-top: -80px;
 
   .audio_div {
     width: 100vw;
-    height: 70px;
-    margin-top: 35px;
+    height: 100px;
   }
 
   .myAudio {
     width: 70vw;
-    height: 70px;
+    height: 80px;
   }
 
   /*# sourceMappingURL=style.css.map */
