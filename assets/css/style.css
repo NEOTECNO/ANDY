@@ -3267,6 +3267,10 @@ margin-top: -80px;
 
 @media (max-width: 370px) {
 
+  .preloader {
+  height: 100vh;
+  }
+	
   body {
     background-image: url();
   }
@@ -3488,6 +3492,10 @@ margin-top: -80px;
 
 @media (min-width: 410px) and (max-width: 512px) {
 
+  .preloader {
+  height: 100vh;
+  }
+	
   .click-btn {
     width: 15vw;
     left: 5px;
