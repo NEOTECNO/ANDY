@@ -3268,7 +3268,8 @@ margin-top: -80px;
 @media (max-width: 370px) {
 
   .preloader {
-  height: 100vh;
+  width: 0px;
+  height: 0px;
   }
 	
   body {
@@ -3493,7 +3494,8 @@ margin-top: -80px;
 @media (min-width: 410px) and (max-width: 512px) {
 
   .preloader {
-  height: 100vh;
+  width: 0px;
+  height: 0px;
   }
 	
   .click-btn {
