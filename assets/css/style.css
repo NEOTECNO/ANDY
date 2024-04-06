@@ -3271,6 +3271,13 @@ margin-top: -80px;
     background-image: url();
   }
 
+  .preloader {
+    width: 0px;
+  }
+  .preloader video {
+    width: 0px;
+  }
+
   .click-btn {
     width: 15vw;
     left: 5px;
@@ -3487,6 +3494,13 @@ margin-top: -80px;
 /*# sourceMappingURL=style.css.map */
 
 @media (min-width: 410px) and (max-width: 512px) {
+
+  .preloader {
+    width: 0px;
+  }
+  .preloader video {
+    width: 0px;
+  }
 
   .click-btn {
     width: 15vw;
@@ -4468,6 +4482,13 @@ margin-top: -80px;
 
 @media (min-width: 1080px) and (max-width: 1100px) {
 
+  .preloader {
+    width: 0px;
+  }
+  .preloader video {
+    width: 0px;
+  }
+  
   .click-btn {
     width: 15vw;
     left: 5px;
@@ -4593,7 +4614,7 @@ margin-top: -80px;
 
   .howto-btn-2 {
     width: 80vw;
-    margin-top: 255px;
+    margin-top: 220px;
   }
   .howto-btn-2:hover {
     width: 85vw;
@@ -4601,7 +4622,7 @@ margin-top: -80px;
 
   .howto-btn-3 {
     width: 70vw;
-    margin-top: 50px;
+    margin-top: 90px;
   }
   .howto-btn-3:hover {
     width: 75vw;
