@@ -3271,6 +3271,10 @@ margin-top: -80px;
   width: 0px;
   height: 0px;
   }
+  .preloader video{
+  width: 0px;
+  height: 0px;
+  }
 	
   body {
     background-image: url();
@@ -3494,6 +3498,10 @@ margin-top: -80px;
 @media (min-width: 410px) and (max-width: 512px) {
 
   .preloader {
+  width: 0px;
+  height: 0px;
+  }
+  .preloader video{
   width: 0px;
   height: 0px;
   }
