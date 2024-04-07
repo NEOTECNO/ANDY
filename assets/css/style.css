@@ -3481,7 +3481,7 @@ margin-top: -80px;
 
 /*# sourceMappingURL=style.css.map */
 
-@media (min-width: 410px) and (max-width: 512px) {
+@media (min-width: 410px) and (max-width: 420px) {
 
   body {
     height: 3878px;
@@ -3577,6 +3577,247 @@ margin-top: -80px;
   .faq {
     background-image: url(/assets/images/collection/extra-mov2.png);
     height: 915px;
+    background-size: 100vw;
+  }
+
+  .community {
+    height: 200px;
+    background-size: 120%;
+    background-position: bottom;
+  }
+
+  .footer {
+    height: 115px;
+    background-color: #000000;
+  }
+
+  .footer__copyright {
+    font-size: 24px;
+    height: 50px;
+  }
+
+  /*# sourceMappingURL=style.css.map */
+
+  .howto {
+    margin-top: 25px;
+  }
+
+  .howto2 {
+    margin-top: 45px;
+  }
+
+  .howto-btn-1 {
+    width: 80vw;
+    margin-top: 150px;
+  }
+
+  .howto-btn-2 {
+    width: 80vw;
+    margin-top: 55px;
+  }
+  .howto-btn-2:hover {
+    width: 85vw;
+  }
+
+  .howto-btn-3 {
+    width: 70vw;
+    margin-top: 50px;
+  }
+  .howto-btn-3:hover {
+    width: 75vw;
+  }
+
+  .howto-btn-4 {
+    width: 15vw;
+    margin-right: 10px;
+  }
+
+  .contract {
+    height: 50px;
+    width: 65vw;
+    font-size: 12px;
+    padding: 20px;
+  }
+
+/*# sourceMappingURL=style.css.map */
+
+  .adventures {
+  }
+
+  .adventures2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .adv-btn-1 {
+    width: 90vw;
+    margin-top: 100px;
+  }
+  .adv-btn-1:hover {
+    width: 100vw;
+  }
+
+  .adv-btn-2 {
+    width: 90vw;
+    margin-top: 20px;
+  }
+  .adv-btn-2:hover {
+    width: 100vw;
+  }
+
+  .adv-btn-3 {
+    width: 90vw;
+    margin-top: 20px;
+  }
+  .adv-btn-3:hover {
+    width: 100vw;
+  }
+
+  .adv-btn-4 {
+    width: 15vw;
+    content: url(/assets/buttons/extra/1.png);
+    margin: 15px 5px;
+  }
+  .adv-btn-4:hover {
+    width: 20vw;
+  }
+
+  .adv-btn-5 {
+    width: 15vw;
+    content: url(/assets/buttons/extra/2.png);
+    margin: 15px 5px;
+  }
+  .adv-btn-5:hover {
+    width: 20vw;
+  }
+
+  .adv-btn-6 {
+    width: 15vw;
+    content: url(/assets/buttons/extra/3.png);
+    margin: 15px 5px;
+  }
+  .adv-btn-6:hover {
+    width: 20vw;
+  }
+
+  .popup {
+    width: 94vw;
+  }
+
+  .popup-img {
+    width: 100vw;
+    height: 46vh;
+  }
+
+  .audio_div {
+    background-color: #000000;
+  }
+
+  .myAudio {
+    width: 70vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+@media (min-width: 432px) and (max-width: 440px) {
+
+  body {
+    height: 3996px;
+  }
+
+  .preloader {
+    width: 0px;
+  }
+  .preloader video {
+    width: 0px;
+  }
+
+  .click-btn {
+    width: 15vw;
+    left: 5px;
+  }
+
+  .gif {
+    width: 80vw;
+    height: 80vw;
+    margin-top: 130px;
+    padding-top: 10px;
+    border-width: 12px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+  }
+  .gif:hover {
+    height: 85vw;
+    width: 85vw;
+  }
+
+  .rndmImage {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .row>* {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .logo-mov {
+    content: url(/assets/images/logo/logo-mov.png);
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .banner {
+    background-image: url(/assets/images/banner/banner-bg4.png);
+    background-size: 100vw;
+    background-position: bottom;
+    height: 960px;
+  }
+
+  .navbar-nav {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .btn_nav {
+    height: 50px;
+  }
+
+  .navbar-nav2 {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .meme_img1 {
+    margin-left: 0px;
+  }
+  .meme_img2 {
+    margin-left: 0px;
+  }
+
+  .collection {
+    background-image: url(/assets/images/collection/tokenomics-mov2.png);
+    height: 960px;
+    background-size: 100vw;
+  }
+
+  .mint {
+    background-image: url(/assets/images/collection/howto-mov2.png);
+    height: 960px;
+    background-size: 100vw;
+  }
+
+  .faq {
+    background-image: url(/assets/images/collection/extra-mov2.png);
+    height: 960px;
     background-size: 100vw;
   }
 
