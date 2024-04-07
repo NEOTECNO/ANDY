@@ -4514,6 +4514,195 @@ margin-top: -80px;
 
 /*# sourceMappingURL=style.css.map */
 
+@media (min-width: 1733px) and (max-width: 1750px) {
+
+  .click-btn {
+    left: 95px;
+  }
+
+  .gif {
+    height: auto;
+    width: 35vw;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-width: 12px;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+}
+  .gif:hover {
+    height: auto;
+    width: 37vw;
+  }
+
+  .logo-mov {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .rndmImage {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .row>* {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .banner {
+    height: 975px;
+  }
+
+  .meme_img {
+    height: 310px;
+  }
+  .meme_img1 {
+    height: 310px;
+    margin-left: 90px;
+  }
+  .meme_img2 {
+    height: 310px;
+    margin-right: 140px;
+  }
+
+  .collection {
+    height: 975px;
+    background-size: 100vw;
+  }
+
+  .mint {
+    height: 975px;
+    background-size: 100vw;
+  }
+
+  .faq {
+    height: 975px;
+    background-size: 100vw;
+    background-position: top;
+  }
+
+  .community {
+    height: 0px;
+    background-size: 120%;
+    background-position: bottom;
+  }
+
+  .footer__copyright {
+    font-size: 24px;
+    height: 20px;
+  }
+
+  /*# sourceMappingURL=style.css.map */
+
+  .howto {
+    margin-top: 35px;
+  }
+
+  .howto2 {
+    margin-top: 55px;
+  }
+
+  .howto-btn-1 {
+    width: 25vw;
+    margin-top: 30px;
+  }
+
+  .howto-btn-2 {
+    width: 35vw;
+    margin-top: 100px;
+  }
+
+  .howto-btn-3 {
+    width: 25vw;
+    margin-top: 355px;
+  }
+
+  .howto-btn-4 {
+    width: 6vw;
+    margin-right: 10px;
+  }
+
+  .contract {
+    width: 48vw;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+/*# sourceMappingURL=style.css.map */
+
+  .adventures {
+    margin-top: 20px;
+  }
+
+  .adventures2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .adv-btn-1 {
+    margin-top: 20px;
+  }
+  .adv-btn-1:hover {
+    width: 47vw;
+  }
+
+  .adv-btn-2 {
+    margin-top: 20px;
+  }
+  .adv-btn-2:hover {
+    width: 47vw;
+  }
+
+  .adv-btn-3 {
+    margin-top: 20px;
+  }
+  .adv-btn-3:hover {
+    width: 47vw;
+  }
+
+  .adv-btn-4 {
+    width: 5vw;
+    margin: 15px;
+  }
+  .adv-btn-4:hover {
+    width: 6vw;
+  }
+
+  .adv-btn-5 {
+    width: 5vw;
+    margin: 15px;
+  }
+  .adv-btn-5:hover {
+    width: 6vw;
+  }
+
+  .adv-btn-6 {
+    width: 5vw;
+    margin: 15px;
+  }
+  .adv-btn-6:hover {
+    width: 6vw;
+  }
+
+  .popup {
+    width: 100vw;
+  }
+
+  .popup-img {
+    width: 57vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
 @media (min-width: 2560px) and (max-width: 2600px) {
 
   .click-btn {
