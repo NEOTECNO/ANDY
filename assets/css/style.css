@@ -343,6 +343,9 @@ template {
  * Basic typography style for copy text <-------------------------------------------
  */
 body {
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
   color: #ffffff;
   font-size: 1rem;
   line-height: 1.4;
@@ -1204,7 +1207,6 @@ ol {
 .community__content h2,
 .roadmap__thumb,
 .coming-soon__content h2,
-.footer__content h2,
 .contact .form input,
 .banner__content h1 {
   margin-bottom: 20px;
@@ -1217,7 +1219,6 @@ ol {
 .team__thumb,
 .about__content h2,
 .coming-soon__content .countdown,
-.footer__content p,
 .info__item-icon {
   margin-bottom: 30px;
 }
@@ -1485,11 +1486,11 @@ ol {
 
 html,body{
   overflow-x: hidden;
-  width:100%;
   margin: 0px;
   padding: 0px;
   background-image: url(/assets/images/Website-BG.png);
-  background-size: 100vw;
+  background-size: 100%;
+  background-position: top;
 }
 
 .click-btn {
@@ -1498,6 +1499,7 @@ html,body{
 
 .logo-mov {
   width: 70vw;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -1539,7 +1541,7 @@ margin-top: -80px;
 }
 
 .banner {
-  height: 116vh;
+  height: 1080px;
 }
 
 .banner__wrapper {
@@ -1576,23 +1578,23 @@ margin-top: -80px;
 }
 
 .collection {
-  height: 116vh;
+  height: 1080px;
 }
 
 .mint {
-  height: 116vh;
+  height: 1080px;
 }
 
 .team {
-  height: 100vh;
+  height: 1080px;
 }
 
 .faq {
-  height: 100vh;
+  height: 1080px;
 }
 
 .gif {
-  height: 70vh;
+  height: 60vh;
   margin-top: 80px;
   border-style: solid;
   border-width: 8px;
@@ -1604,7 +1606,7 @@ margin-top: -80px;
   -o-border-radius: 50px;
 }
 .gif:hover {
-  height: 73vh;
+  height: 63vh;
 }
 
 .btn_nav {
@@ -1616,7 +1618,7 @@ margin-top: -80px;
 }
 
 .howto {
-  margin-top: 80px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1782,24 +1784,6 @@ margin-top: -80px;
   left: 0;
 }
 /*End style*/
-
-@media (min-width: 992px) {
-  .banner {
-    padding-block: 160px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  .banner {
-    padding-block: 0px;
-  }
-}
-
-@media (min-width: 1600px) {
-  .banner {
-    padding-block: 25px;
-  }
-}
 
 .banner__content {
   z-index: 1;
@@ -1974,7 +1958,7 @@ margin-top: -80px;
 }
 
 .footer {
-  height: 90px;
+  height: 87px;
   background-color: #000000;
 }
 
@@ -3268,6 +3252,7 @@ margin-top: -80px;
 @media (max-width: 370px) {
 
   body {
+    height: 3100px;
     background-image: url();
   }
 
@@ -3362,6 +3347,9 @@ margin-top: -80px;
     background-position: top;
   }
 
+  .footer {
+    height: 100px;
+  }
   .footer__copyright {
     font-size: 24px;
     height: 50px;
@@ -3483,7 +3471,7 @@ margin-top: -80px;
   }
 
   .audio_div {
-    margin-top: 15px;
+    margin-top: 0px;
   }
 
   .myAudio {
@@ -3494,6 +3482,10 @@ margin-top: -80px;
 /*# sourceMappingURL=style.css.map */
 
 @media (min-width: 410px) and (max-width: 512px) {
+
+  body {
+    height: 3878px;
+  }
 
   .preloader {
     width: 0px;
@@ -3611,7 +3603,7 @@ margin-top: -80px;
   }
 
   .howto2 {
-    margin-top: 25px;
+    margin-top: 45px;
   }
 
   .howto-btn-1 {
@@ -3794,7 +3786,7 @@ margin-top: -80px;
   }
 
   .faq {
-    height: 755px;
+    height: 768px;
   }
 
   .community {
@@ -3803,6 +3795,9 @@ margin-top: -80px;
     background-position: bottom;
   }
 
+  .footer {
+    height: 80px;
+  }
   .footer__copyright {
     font-size: 24px;
     height: 20px;
@@ -3908,6 +3903,10 @@ margin-top: -80px;
 
 @media (min-width: 1440px) and (max-width: 1500px) {
 
+  body {
+    height: 3348px;
+  }
+
   .click-btn {
     left: 95px;
   }
@@ -3959,25 +3958,28 @@ margin-top: -80px;
   }
 
   .collection {
-    height: 800px;
+    height: 810px;
     background-size: 100vw;
   }
 
   .mint {
-    height: 800px;
+    height: 810px;
     background-size: 100vw;
   }
 
   .faq {
-    height: 820px;
+    height: 810px;
   }
 
   .community {
-    height: 200px;
+    height: 810px;
     background-size: 120%;
     background-position: bottom;
   }
 
+  .footer {
+    height: 70px;
+  }
   .footer__copyright {
     font-size: 24px;
     height: 20px;
@@ -4124,7 +4126,7 @@ margin-top: -80px;
   }
 
   .banner {
-    height: 944px;
+    height: 945px;
   }
 
   .meme_img {
@@ -4140,23 +4142,23 @@ margin-top: -80px;
   }
 
   .collection {
-    height: 944px;
+    height: 945px;
     background-size: 100vw;
   }
 
   .mint {
-    height: 944px;
+    height: 945px;
     background-size: 100vw;
   }
 
   .faq {
-    height: 944px;
+    height: 945px;
     background-size: 100vw;
     background-position: top;
   }
 
   .community {
-    height: 200px;
+    height: 0px;
     background-size: 120%;
     background-position: bottom;
   }
@@ -4354,7 +4356,7 @@ margin-top: -80px;
   }
 
   .footer__copyright {
-    font-size: 36px;
+    font-size: 42px;
     height: 40px;
   }
 
@@ -4488,7 +4490,7 @@ margin-top: -80px;
   .preloader video {
     width: 0px;
   }
-  
+
   .click-btn {
     width: 15vw;
     left: 5px;
@@ -4536,7 +4538,6 @@ margin-top: -80px;
     background-size: 100vw;
     background-position: bottom;
     height: 100vh;
-    padding-block: 40px;
   }
   
   .nav-items {
@@ -4722,7 +4723,7 @@ margin-top: -80px;
   }
 
   .myAudio {
-    height: 100px;
+    height: 60px;
     width: 90vw;
   }
 }
