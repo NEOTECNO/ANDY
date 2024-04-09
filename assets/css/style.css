@@ -4930,7 +4930,7 @@ margin-top: -80px;
   .gif {
     width: 80vw;
     height: 80vw;
-    margin-top: 130px;
+    margin-top: 100px;
     padding-top: 10px;
     border-width: 12px;
     border-radius: 28px;
@@ -4962,13 +4962,6 @@ margin-top: -80px;
     margin-top: 10px;
     margin-bottom: 5px;
   }
-
-  .banner {
-    background-image: url(/assets/images/banner/banner-bg4.png);
-    background-size: 100vw;
-    background-position: bottom;
-    height: 100vh;
-  }
   
   .nav-items {
     margin-top: 100px;
@@ -4994,21 +4987,28 @@ margin-top: -80px;
     margin-left: 0px;
   }
 
+  .banner {
+    background-image: url(/assets/images/banner/banner-bg5.png);
+    background-size: 100vw;
+    background-position: bottom;
+    height: 2040px;
+  }
+
   .collection {
-    background-image: url(/assets/images/collection/tokenomics-mov2.png);
-    height: 100vh;
+    background-image: url(/assets/images/collection/tokenomics-mov3.png);
+    height: 2040px;
     background-size: 100vw;
   }
 
   .mint {
-    background-image: url(/assets/images/collection/howto-mov2.png);
-    height: 100vh;
+    background-image: url(/assets/images/collection/howto-mov3.png);
+    height: 2040px;
     background-size: 100vw;
   }
 
   .faq {
-    background-image: url(/assets/images/collection/extra-mov2.png);
-    height: 100vh;
+    background-image: url(/assets/images/collection/extra-mov3.png);
+    height: 2040px;
     background-size: 100vw;
   }
 
@@ -5045,7 +5045,7 @@ margin-top: -80px;
 
   .howto-btn-2 {
     width: 80vw;
-    margin-top: 220px;
+    margin-top: 150px;
   }
   .howto-btn-2:hover {
     width: 85vw;
@@ -5074,6 +5074,7 @@ margin-top: -80px;
 /*# EDGE 30 */
 
   .adventures {
+    margin-top: 0px;
   }
 
   .adventures2 {
